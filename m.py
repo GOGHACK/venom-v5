@@ -8,10 +8,10 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7543594921:AAEb0Qs9usGggKGl0Q-iZ-JimDzJhtv01e0')
+bot = telebot.TeleBot('6821130374:AAHgqj-IAU_6uo_9_05u-BTDNfX00uhpPIE')
 
 # Admin user IDs
-admin_id = ["5894556386"]
+admin_id = ["6310626874"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -357,7 +357,7 @@ def show_help(message):
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
 
-Buy From :- @venomXcrazy
+Buy From :- @GOD_HACK_Z
 Official Channel :- https://t.me/V3NOM_CH3AT
 '''
     for handler in bot.message_handlers:
@@ -375,7 +375,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
 🤖Try To Run This Command : /help 
-✅BUY :- @venomXcrazy'''
+✅BUY :- @GOD_HACK_Z'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
